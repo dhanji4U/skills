@@ -1,4 +1,4 @@
-# Emiote Skills
+# Skills for Curated Agent
 
 A collection of agent skills for AI coding assistants. Works with [Antigravity](https://github.com/AntimatterAI/antigravity), [Cursor](https://cursor.sh), and any agent that supports the [skills.sh](https://skills.sh) standard.
 

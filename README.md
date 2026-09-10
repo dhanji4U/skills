@@ -30,6 +30,10 @@ Read more at [skills.sh](https://skills.sh).
 
 ## Contributing
 
+Bug or safety report? Please [Open an Issue](https://github.com/dhanji4U/skills/issues/new/choose). Real reports from real machines help us ensure 100% data safety.
+
+Feature idea? Open an issue first to discuss scope before opening a PR.
+
 1. Fork this repository
 2. Add your skill under `skills/<category>/<skill-name>/SKILL.md`
 3. Update the skills table in this README

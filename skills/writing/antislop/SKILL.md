@@ -184,8 +184,8 @@ LLMs exhibit statistically anomalous frequencies of specific words. Eliminate th
 - **After:** *Adding caching cut latency, and timeout handlers resolved intermittent disconnects.*
 
 ### 21. Decorative Headings & Title Case
-- **Watch for:** Capitalizing Every Word In Headings; adding emojis to headings (`🚀 Getting Started`, `💡 Key Insights`); nesting empty headings containing only subheadings; placing horizontal rules (`---`) between every tiny sub-paragraph.
-- **Rule:** Use sentence case for headings. Avoid decorative emojis in headings. Remove decorative divider lines unless separating major conceptual sections.
+- **Watch for:** Capitalizing Every Word In Headings; adding emojis to headings (`Getting Started`, `Key Insights`); nesting empty headings containing only subheadings; placing horizontal rules (`---`) between every tiny sub-paragraph.
+- **Rule:** Use sentence case for headings. Never use emojis in headings or anywhere in documentation. Remove decorative divider lines unless separating major conceptual sections.
 
 ### 22. Canned Section Templates (`WP:AIRECOG`)
 - **Watch for:** Rigid, formulaic sections such as *"Awards and Recognition"*, *"Key Takeaways"*, *"Questions to Consider"*, or *"Welcome to my page / About Me / Let's Connect"*.

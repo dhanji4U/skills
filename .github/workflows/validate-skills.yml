@@ -1,0 +1,32 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [main, feat/*]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run validation suite
+        run: |
+          python3 scripts/validate.py
+
+      - name: Test installer CLI
+        run: |
+          chmod +x install.sh
+          ./install.sh --list
+          ./install.sh --dest /tmp/test-install --category principles
+          test -f /tmp/test-install/fix-root-causes/SKILL.md
+          echo "Installer test passed."

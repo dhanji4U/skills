@@ -1,8 +1,21 @@
 # Curated Agent Skills
 
-A production-grade, platform-agnostic library of **72 curated developer skills** for AI coding assistants. Works across **Antigravity**, **OpenAI Codex**, **Claude Code**, **Cursor**, **Aider**, **Windsurf**, and any agent adhering to the [skills.sh](https://skills.sh) standard or reading standard `SKILL.md` instructions.
+A production-grade, platform-agnostic library of **73 curated developer skills** for AI coding assistants. Works across **Antigravity**, **OpenAI Codex**, **Claude Code**, **Cursor**, **Aider**, **Windsurf**, and any agent adhering to the [skills.sh](https://skills.sh) standard or reading standard `SKILL.md` instructions.
 
 All skills are 100% self-contained, fully attributed to their original creators under the MIT License, and accompanied by their companion reference prompts, rubrics, and patterns.
+
+---
+
+## Not Sure Which Skill to Use?
+
+Use the built-in universal router skill **[`which-skill`](skills/meta/which-skill/)**:
+
+```bash
+# Ask your agent anytime:
+"Which skill should I use for [describe your problem]?"
+```
+
+The agent will analyze the library and recommend the exact 1–2 high-leverage skills for your situation.
 
 ---
 
@@ -13,6 +26,9 @@ All skills are 100% self-contained, fully attributed to their original creators 
 Install individual skills globally:
 
 ```bash
+# Universal skill router
+npx skills add dhanji4U/skills --skill which-skill --global
+
 # Writing & antislop
 npx skills add dhanji4U/skills --skill antislop --global
 
@@ -29,7 +45,7 @@ npx skills add dhanji4U/skills --skill subtract-before-you-add --global
 Clone the repository and install skills directly into your agent's global or workspace directory in a single command:
 
 ```bash
-# List all 72 skills across categories
+# List all 73 skills across categories
 ./install.sh --list
 
 # Install for Google Antigravity (~/.gemini/config/skills/)
@@ -63,7 +79,7 @@ Clone the repository and install skills directly into your agent's global or wor
 
 ---
 
-## Skills Catalog (72 Skills)
+## Skills Catalog (73 Skills)
 
 ### Principles (24 skills) — Core Engineering Disciplines
 
@@ -154,7 +170,7 @@ Clone the repository and install skills directly into your agent's global or wor
 | [blast-radius](skills/architecture/blast-radius/) | Find what a change could break somewhere else before it ships, beyond the diff, and prove th... | Lauren Tan |
 | [dyl-mode](skills/architecture/dyl-mode/) | Dylan's agent style on top of pstack: concise verified delivery, root causes over symptom pa... | Dylan Gattey |
 
-### Meta & Learning (7 skills) — Continuous Improvement & Protocols
+### Meta & Learning (8 skills) — Routers, Protocols & Skill Building
 
 | Skill | Description | Author / Source |
 |:------|:------------|:----------------|
@@ -165,6 +181,7 @@ Clone the repository and install skills directly into your agent's global or wor
 | [run-learning-retrospective](skills/meta/run-learning-retrospective/) | Evaluate learning progress, identify blockers, and adjust the learning plan | Cursor |
 | [setup-pstack](skills/meta/setup-pstack/) | Configure which models pstack uses per role and at what reasoning budget. Detects your avail... | Lauren Tan |
 | [teach](skills/meta/teach/) | Explain a body of work plainly so a person actually understands it. Runs the `how` and `why`... | Lauren Tan |
+| [which-skill](skills/meta/which-skill/) | Find and recommend the right agent skill for any task, problem, or question across the curat... | Community |
 
 ### Writing (1 skill) — Humanized Prose & Documentation
 

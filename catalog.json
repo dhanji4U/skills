@@ -96,6 +96,15 @@
       "path": "skills/meta/teach"
     },
     {
+      "name": "which-skill",
+      "category": "meta",
+      "description": "Find and recommend the right agent skill for any task, problem, or question across the curated skills library. Use when the user asks \"which skill should I use\", \"what skill fits this\", \"how do I do X\", or when the user has a problem but doesn't know what skill exists to solve it. Also auto-triggers when work is ambiguous or needs routing.",
+      "author": "Community",
+      "source_repo": "dhanji4U/skills",
+      "source_url": "https://github.com/dhanji4U/skills/tree/main/skills/meta/which-skill",
+      "path": "skills/meta/which-skill"
+    },
+    {
       "name": "principle-attack-the-premise",
       "category": "principles",
       "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the imbalance before the next fix, then question the premise instead of writing another fix that assumes it.",

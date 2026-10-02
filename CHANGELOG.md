@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2026-10-02
+## [2.0.0] - 2026-10-02
 
 ### Added
 - **73 Curated Agent Skills**: Fully self-contained, platform-agnostic skills adapted from open-source sources (`cursor/plugins`, `pstack`, `dyl-stack`, `thermos`, `cursor-team-kit`, `blader/humanizer`, and Wikipedia).
@@ -22,6 +22,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Machine-Readable Registry (`catalog.json`)**: Complete metadata index of all 73 skills with descriptions, authors, source repositories, and relative paths.
 - **Validation Suite (`scripts/validate.py`)**: Local test script that validates YAML frontmatter syntax, link integrity, and catalog-filesystem synchronization.
 - **GitHub Actions CI (`.github/workflows/validate-skills.yml`)**: Continuous integration workflow running on all PRs and pushes to enforce link integrity and test the installer.
+- **Repository Security Hardening**: Added `SECURITY.md`, `.github/workflows/codeql.yml` for automated CodeQL vulnerability analysis, and `.github/dependabot.yml` for weekly dependency monitoring.
 
 ### Changed
 - **README.md**: Comprehensive overhaul with quickstart instructions, agent directory reference table, full categorized skills catalog, and a transparent **Credits & Upstream Authors** attribution table.
+
+---
+
+## [1.0.0] - 2026-09-10
+
+### Added
+- **Initial Skills Repository**: Established curated repository for AI coding assistants supporting Antigravity, Cursor, and the skills.sh standard.
+- **Antislop Writing Skill (`skills/writing/antislop/`)**: Comprehensive guide and pattern catalog targeting 30 common AI writing tells across prose, documentation, commit messages, and pull request summaries.

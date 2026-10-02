@@ -1,6 +1,6 @@
 {
   "name": "skills",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Curated Agent skills for AI coding assistants. Multi-agent compatible.",
   "homepage": "https://github.com/dhanji4U/skills",
   "license": "MIT",

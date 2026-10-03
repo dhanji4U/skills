@@ -1,6 +1,6 @@
 # Curated Agent Skills
 
-A production-grade, platform-agnostic library of **73 curated developer skills** for AI coding assistants. Works across **Antigravity**, **OpenAI Codex**, **Claude Code**, **Cursor**, **Aider**, **Windsurf**, and any agent adhering to the [skills.sh](https://skills.sh) standard or reading standard `SKILL.md` instructions.
+A production-grade, platform-agnostic library of **74 curated developer skills** for AI coding assistants. Works across **Antigravity**, **OpenAI Codex**, **Claude Code**, **Cursor**, **Aider**, **Windsurf**, and any agent adhering to the [skills.sh](https://skills.sh) standard or reading standard `SKILL.md` instructions.
 
 All skills are 100% self-contained, fully attributed to their original creators under the MIT License, and accompanied by their companion reference prompts, rubrics, and patterns.
 
@@ -45,7 +45,7 @@ npx skills add dhanji4U/skills --skill subtract-before-you-add --global
 Clone the repository and install skills directly into your agent's global or workspace directory in a single command:
 
 ```bash
-# List all 73 skills across categories
+# List all 74 skills across categories
 ./install.sh --list
 
 # Install for Google Antigravity (~/.gemini/config/skills/)
@@ -79,7 +79,7 @@ Clone the repository and install skills directly into your agent's global or wor
 
 ---
 
-## Skills Catalog (73 Skills)
+## Skills Catalog (74 Skills)
 
 ### Principles (24 skills) — Core Engineering Disciplines
 
@@ -183,11 +183,12 @@ Clone the repository and install skills directly into your agent's global or wor
 | [teach](skills/meta/teach/) | Explain a body of work plainly so a person actually understands it. Runs the `how` and `why`... | Lauren Tan |
 | [which-skill](skills/meta/which-skill/) | Find and recommend the right agent skill for any task, problem, or question across the curat... | Community |
 
-### Writing (1 skill) — Humanized Prose & Documentation
+### Writing (2 skills) — Humanized Prose & Documentation
 
 | Skill | Description | Author / Source |
 |:------|:------------|:----------------|
 | [antislop](skills/writing/antislop/) | Rewrite AI-sounding text so it reads like a human domain expert without changing what it say... | blader / Wikipedia AI Cleanup |
+| [asd-ste100](skills/writing/asd-ste100/) | Apply ASD-STE100 rules (sentence word limits, active commands, controlled root vocabulary) to... | ASD / STEMG |
 
 ---
 
@@ -202,6 +203,7 @@ This repository curates and adapts skills created by generous engineers in the A
 | **Cursor Team** | [`cursor-team-kit`](https://github.com/cursor/plugins/tree/main/cursor-team-kit), [`thermos`](https://github.com/cursor/plugins/tree/main/thermos), [`teaching`](https://github.com/cursor/plugins/tree/main/teaching), [`advisor`](https://github.com/cursor/plugins/tree/main/advisor) (MIT) | Thermo-nuclear reviews, CI loop & fix skills, compiler checkers, advisor |
 | **Eric Zakariasson** | [`cli-for-agent`](https://github.com/cursor/plugins/tree/main/cli-for-agent), [`continual-learning`](https://github.com/cursor/plugins/tree/main/continual-learning) (MIT) | CLI design patterns for agents, transcript memory extraction |
 | **blader / Wikipedia AI Cleanup** | [`blader/humanizer`](https://github.com/blader/humanizer) (MIT), [Wikipedia Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) | Antislop writing patterns and AI-phrase removal guide |
+| **ASD / STEMG** | [ASD-STE100 Specification](https://www.asd-ste100.org) | ASD-STE100 writing and inspection skill for controlled technical documentation |
 
 ---
 

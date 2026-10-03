@@ -87,6 +87,7 @@ You do not need to memorize every skill. When a problem arrives—or when you or
 |:---|:---|:---|
 | Prose, docs, or PR descriptions sound like AI | **`antislop`** or **`unslop`** | Strips negative parallelisms, inflated significance, em-dash addiction, and AI buzzwords. |
 | Writing structured technical documentation | **`technical-writing`** | Diátaxis framework (tutorials, how-to guides, reference, explanation) with clear prose. |
+| Strict aerospace English / 20-word limits / procedures | **`asd-ste100`** | Enforces ASD-STE100 rules: max 20-word sentences, active commands, and controlled vocabulary. |
 
 ### 8. Scaling, Agents & Meta
 

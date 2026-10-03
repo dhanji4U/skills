@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-10-03
+
+### Added
+- **ASD-STE100 Writing Skill (`skills/writing/asd-ste100/`)**: Complete specification and inspection guide for European aerospace Simplified Technical English (ASD-STE100). Enforces 20-word limits for procedural sentences, 25-word limits for descriptive statements, active imperative verbs only, max 3-word noun clusters, and controlled root vocabulary mapping.
+- **Universal Skill Router (`which-skill`) Update**: Added direct routing to `asd-ste100` under Documentation & Writing for strict procedural copy, technical limits, and cognitive fatigue reduction.
+- **Catalog & Index Synchronization**: Updated `catalog.json` and `README.md` to reflect 74 curated developer skills.
+
 ## [2.0.1] - 2026-10-02
 
 ### Changed

